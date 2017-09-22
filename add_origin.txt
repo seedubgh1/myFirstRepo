@@ -10,4 +10,5 @@ git commit -m "<add your commit comment here>"
 
 3-add the origin to the local repo
 git remote add origin https://github.com/seedubgh1/humpty.git
+git pull origin master
 git push -u origin master
