@@ -1,5 +1,7 @@
 # this is how to link a new repo on GitHub to a local repo
 
+A-issue a git init in the source directory
+
 1-add and commit all changes to the local repo
 git add --all
 git commit -m "<add your commit comment here>"
