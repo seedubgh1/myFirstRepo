@@ -6,9 +6,9 @@ A-issue a git init in the source directory
 git add --all
 git commit -m "<add your commit comment here>"
 
-2-create your repository in git
+2-create your repository in git, do not create README or .gitignore
 
 3-add the origin to the local repo
-git remote add origin https://github.com/seedubgh1/humpty.git
+git remote add origin <repo url goes here>
 git pull origin master
 git push -u origin master
