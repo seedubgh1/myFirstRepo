@@ -10,5 +10,15 @@ git commit -m "<add your commit comment here>"
 
 3-add the origin to the local repo
 git remote add origin <repo url goes here>
-git pull origin master
 git push -u origin master
+git pull origin master
+
+
+# in case you are cloning a repo and want it to point the remote to your own repo
+
+A-git clone <repo url>
+
+1-change remote origin
+git remote set-url origin <your repo url>
+git push -u origin master
+git pull origin master
