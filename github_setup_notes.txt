@@ -2,6 +2,8 @@
 
 git@github.cedars-sinai.edu:whitecx/CONV_NextGen.git
 
+Pre-requisite:  create public/private ssh keys and add public key to github account
+
 -- initializing the repo, add remote and push intial to the remote
 echo "# CONV_NextGen" >> README.md
 git init
