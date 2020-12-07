@@ -2,7 +2,7 @@
 
 git@github.cedars-sinai.edu:whitecx/CONV_NextGen.git
 
--- initializing the repo, add remote and push to the remote
+-- initializing the repo, add remote and push intial to the remote
 echo "# CONV_NextGen" >> README.md
 git init
 git add README.md
