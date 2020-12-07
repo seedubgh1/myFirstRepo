@@ -1,0 +1,21 @@
+-- URL for ssh configuration
+
+git@github.cedars-sinai.edu:whitecx/CONV_NextGen.git
+
+-- initializing the repo, add remote and push to the remote
+echo "# CONV_NextGen" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.cedars-sinai.edu:whitecx/CONV_NextGen.git
+git push -u origin master
+
+-- change(?) the remote URL
+git remote add origin git@github.cedars-sinai.edu:whitecx/CONV_NextGen.git
+git push -u origin master
+
+HTTPS version of URL
+https://github.cedars-sinai.edu/whitecx/CONV_NextGen
+
+
+
