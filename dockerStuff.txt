@@ -1,0 +1,24 @@
+## -- install Docker engine on EC2
+
+// update linux (AWS Linux2) EC2 instance
+sudo yum update -y
+
+// install most recent package
+sudo amazon-linux-extras install docker
+
+// start the service docker
+sudo service docker start
+
+// add the ec2-docker user to the group
+sudo usermod -a -G docker ec2-user
+
+// you need to logout to take affect
+logout
+
+// login again
+ssh -i <key pair file> <EC2 IP address>
+
+// check the docker version
+docker --version
+
+
