@@ -1,0 +1,27 @@
+// PREREQ: install docker and docker-compose
+
+// download docker-compose.yaml
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.1.3/docker-compose.yaml'
+
+// initialize the environment //
+
+// create directories
+mkdir -p ./dags ./logs ./plugins
+
+// create .env file
+echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
+
+//run database migrations and create the first user account
+docker-compose up airflow-init
+
+// message after initialization
+// airflow-init_1       | Upgrades done
+// airflow-init_1       | Admin user airflow created
+// airflow-init_1       | 2.1.3
+// start_airflow-init_1 exited with code 0
+
+// credentials created login: airflow and the password: airflow
+
+// if the environment needs to be rebuilt, follow the instructions here
+https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html#cleaning-up-the-environment
+
