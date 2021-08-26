@@ -6,11 +6,17 @@ sudo yum update -y
 // install most recent package
 sudo amazon-linux-extras install docker
 
+// --- OR ---
+sudo yum install docker
+
 // start the service docker
 sudo service docker start
 
 // add the ec2-docker user to the group
 sudo usermod -a -G docker ec2-user
+
+// make docker auto-start
+sudo chkconfig docker on
 
 // you need to logout to take affect
 logout
@@ -18,8 +24,14 @@ logout
 // login again
 ssh -i <key pair file> <EC2 IP address>
 
+// --- OR ---
+sudo reboot
+
 // check the docker version
 docker --version
+
+// test docker is working
+docker ps
 
 
 ## -- install Docker Compose
