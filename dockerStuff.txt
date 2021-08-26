@@ -21,11 +21,11 @@ sudo chkconfig docker on
 // you need to logout to take affect
 logout
 
-// login again
-ssh -i <key pair file> <EC2 IP address>
-
 // --- OR ---
 sudo reboot
+
+// login again
+ssh -i <key pair file> <EC2 IP address>
 
 // check the docker version
 docker --version
