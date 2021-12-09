@@ -25,3 +25,8 @@ docker-compose up airflow-init
 // if the environment needs to be rebuilt, follow the instructions here
 https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html#cleaning-up-the-environment
 
+// start airflow environment
+docker-compose up
+
+// stop airflow environment
+docker-compose down
