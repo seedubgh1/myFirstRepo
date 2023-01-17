@@ -3,3 +3,7 @@ find . -name '*.txt' -type f -exec rm -f {} \;
 
 ## delete files that are older than 6 days
 find . -mtime +6 -type f -exec rm -f {} \;
+
+
+## copy (cp) files
+find ./from_dir -name '*.txt' -exec cp "{}" ./to_dir  \;
