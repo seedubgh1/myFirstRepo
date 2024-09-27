@@ -1,4 +1,4 @@
-# this is how to link a new repo on GitHub to an existing, local repo
+# these are the steps to link a new repo on GitHub to an existing, local repo
 
 A-issue a git init in the source directory
 
