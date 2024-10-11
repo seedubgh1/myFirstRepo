@@ -8,12 +8,7 @@ git commit -m "<add your commit comment here>"
 
 2-create your repository in github, do not create README or .gitignore
 
-3-add the origin to the local repo
-git remote add origin <repo url goes here>
-git push -u origin master
-git pull origin master
-
-3.5-instructions to reflect new convention of using 'main' instead of 'master' as the primary branch
+3-add the origin to the local repo (instructions to reflect new convention of using 'main' instead of 'master' as the primary branch)
 git remote add origin <repo url goes here>
 git branch -M main
 git push -u origin main
@@ -25,5 +20,5 @@ A-git clone <repo url>
 
 1-change remote origin
 git remote set-url origin <your repo url>
-git push -u origin master
-git pull origin master
+git push -u origin main
+git pull origin main
