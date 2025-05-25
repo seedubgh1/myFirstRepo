@@ -6,7 +6,7 @@ A-issue a git init in the source directory
 git add --all
 git commit -m "<add your commit comment here>"
 
-2-create your repository in github, do not create README or .gitignore
+2-create your repository in GitHub, do not create README or .gitignore
 
 3-add the origin to the local repo (instructions to reflect new convention of using 'main' instead of 'master' as the primary branch)
 git remote add origin <repo url goes here>
