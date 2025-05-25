@@ -22,3 +22,9 @@ A-git clone <repo url>
 git remote set-url origin <your repo url>
 git push -u origin main
 git pull origin main
+
+## -- store credentials (username, password/personal access token)
+$ git config credential.helper store
+$ git push <repo url>
+Username: <type your username>
+Password: <type your password/personal access token>
