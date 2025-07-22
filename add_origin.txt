@@ -1,6 +1,7 @@
 # these are the steps to link a new repo on GitHub to an existing, local repo
 
 A-issue a git init in the source directory
+B-add a .gitignore file to exclude sensitive or extraneous files from the repo
 
 1-add and commit all changes to the local repo
 git add --all
